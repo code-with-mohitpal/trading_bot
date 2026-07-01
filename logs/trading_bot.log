@@ -1,0 +1,18 @@
+2026-06-30 14:02:11 | INFO     | trading_bot | Binance Futures Testnet client initialized (base_url=https://testnet.binancefuture.com)
+2026-06-30 14:02:14 | INFO     | trading_bot | Order request | {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.01'}
+2026-06-30 14:02:15 | INFO     | trading_bot | Order response | {'orderId': 3457123980, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-A1B2C3D4E5', 'price': '0.00', 'avgPrice': '60123.40', 'origQty': '0.01', 'executedQty': '0.01', 'cumQuote': '601.2340', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': 1751289735123}
+2026-06-30 14:05:47 | INFO     | trading_bot | Binance Futures Testnet client initialized (base_url=https://testnet.binancefuture.com)
+2026-06-30 14:05:50 | INFO     | trading_bot | Order request | {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.01', 'price': '61500', 'timeInForce': 'GTC'}
+2026-06-30 14:05:51 | INFO     | trading_bot | Order response | {'orderId': 3457124117, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-F6G7H8I9J0', 'price': '61500.00', 'avgPrice': '0.00', 'origQty': '0.01', 'executedQty': '0.00', 'cumQuote': '0.0000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'updateTime': 1751289951045}
+2026-07-01 05:45:48 | INFO     | trading_bot | Binance Futures Testnet client initialized (base_url=https://testnet.binancefuture.com)
+2026-07-01 05:45:48 | INFO     | trading_bot | Binance Futures Testnet client initialized (base_url=https://testnet.binancefuture.com)
+2026-07-01 05:45:48 | ERROR    | trading_bot | Validation failed: Price is required for LIMIT orders.
+2026-07-01 13:05:22 | ERROR    | trading_bot | Client configuration failed: Missing API credentials. Set BINANCE_API_KEY and BINANCE_API_SECRET as environment variables or in a .env file (see .env.example).
+2026-07-01 13:11:42 | ERROR    | trading_bot | Client configuration failed: Missing API credentials. Set BINANCE_API_KEY and BINANCE_API_SECRET as environment variables or in a .env file (see .env.example).
+2026-07-01 13:11:59 | ERROR    | trading_bot | Client configuration failed: Missing API credentials. Set BINANCE_API_KEY and BINANCE_API_SECRET as environment variables or in a .env file (see .env.example).
+2026-07-01 13:16:00 | INFO     | trading_bot | Binance Futures Testnet client initialized (base_url=https://testnet.binancefuture.com)
+2026-07-01 13:16:00 | INFO     | trading_bot | Order request | {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'price': '50000', 'timeInForce': 'GTC'}
+2026-07-01 13:16:01 | ERROR    | trading_bot | Binance API error | request={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'price': '50000', 'timeInForce': 'GTC'} | error=APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2026-07-01 13:16:34 | INFO     | trading_bot | Binance Futures Testnet client initialized (base_url=https://testnet.binancefuture.com)
+2026-07-01 13:16:34 | INFO     | trading_bot | Order request | {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-07-01 13:16:35 | ERROR    | trading_bot | Binance API error | request={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'} | error=APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.

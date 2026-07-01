@@ -1,0 +1,26 @@
+# Environment / secrets
+.env
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs (keep the directory via .gitkeep, ignore rotated/log contents if desired)
+logs/*.log.*
+
+# Packaging
+*.egg-info/
+dist/
+build/
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+.idea/
